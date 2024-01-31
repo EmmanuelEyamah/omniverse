@@ -147,7 +147,7 @@ const Header = () => {
             items={[
               { key: "/", label: "Home" },
               { key: "/about", label: "About" },
-              { key: "/service", label: "Services" },
+              { key: "/services", label: "Services" },
             ]}
             onSelect={(value) => {
               navigate(value.key);
